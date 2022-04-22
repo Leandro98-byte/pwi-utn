@@ -26,7 +26,7 @@ html{
     text-decoration: none;
 }
 .nav-bar{
-    background: rgb(43, 144, 203);
+    background: rgb(97, 190, 243);
     color: rgb(228, 6, 6);
     width: 85vw; 
 /* vh= view height vw= view width 85% del ancho o alto del dispositivo */
@@ -53,4 +53,103 @@ html{
 .nav-bar ul li a:hover{
     background: white;
     color: rgb(36, 36, 158);
+}
+
+.banner-top{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+#contenedor{
+
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.body{
+    background:rgb(225, 151, 55);
+    
+}
+
+#contenedor img{
+    width: 100%;
+}
+
+.primero{
+    padding: 2%;
+}
+
+.segundo{
+    padding: 2%;
+}
+
+.tercero{
+    padding: 2%;
+}
+
+.footer{
+    margin-top: 25px;
+    background-color: azure;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer ul{
+    list-style: none;
+
+
+}
+.data{
+    background: coral;
+    color: black;
+   
+}
+.map{
+    width: 60%;
+    margin-top: 10px;
+
+}
+
+
+
+@media screen and (min-width: 660px) and (max-width: 989px){
+
+    .body{
+        background: yellow;
+        }
+    .logo{
+            width: 100%;
+            text-align: center;
+        }
+    .banner-top{
+            display: none;
+        }
+    .primero{
+        width: 100%;
+    }
+
+    .primero figure{
+        height: 300px;
+        overflow: hidden;
+
+    }
+    .segundo{
+        width: 50%;
+    }
+    .tercero{
+        width: 50%;
+    }
+
+    
+
+}
+
+
+@media screen and (min-width: 990px) and (max-width: 1900px){
+
+    .body{
+        background: rgb(42, 170, 221);
+    }
+
 }
